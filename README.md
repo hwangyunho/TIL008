@@ -8,3 +8,5 @@
 >    * FROM MY_EMP
 >    * WHERE EMPNO = 7934)
 >* WHERE EMPNO = 7698;
+* 데이터 값 추가
+> * INSERT INTO MY_EMP(EMPNO, ENAME) VALUES(0002,'홍길동2');
