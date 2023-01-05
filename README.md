@@ -23,3 +23,14 @@ WHERE DEPTNO = 10;'''
 > * COMMIT;
 > * '''~~~~~'''
 > * ROLLBACK;
+
+***
+
+## 프로시저
+* CALL MY_프로시저(a,b,c);
+> * my_db에 있는 MY_프로시저에 a,b,c를 넣고 부른다.
+* 프로시저 만들기
+>CREATE PROCEDURE `MY_프로시저` (a int, b int, (out) c varchar(10) ) --변수 앞에 out을 넣어 리턴값을 만들수도 있다
+>* BEGIN
+>* 변수에 맞게 작동 시킬 sql문
+>* END
