@@ -1,1 +1,10 @@
 # TIL008
+
+## CRUD
+
+* 데이터 값 변경(설정)
+>* UPDATE MY_EMP
+>* SET DEPTNO = ( 	SELECT DEPTNO
+>    * FROM MY_EMP
+>    * WHERE EMPNO = 7934)
+>* WHERE EMPNO = 7698;
